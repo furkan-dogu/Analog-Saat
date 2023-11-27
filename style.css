@@ -9,11 +9,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #081B29;
+    background-color: rgba(0, 0, 0, 0.87);
     overflow: hidden;
 }
 
-.wrapper {
+.container {
     position: relative;
     width: 500px;
     height: 500px;
@@ -21,6 +21,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    outline: 9px solid turquoise;
+    outline-offset: 1.6rem;
     animation: colorful 30s linear infinite;
 }
 
@@ -151,4 +153,70 @@ body {
     height: calc(15rem + 4rem);
     background-color: white;
     box-shadow: none;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 255px;
+        height: 255px;
+        outline: 4px solid turquoise;
+        outline-offset: 1.2rem;
+    }
+
+    .bar-seconds span:nth-child(5n) p {
+        width: 4px;
+        height: 12px;
+    }
+
+    .bar-seconds span p {
+        width: 2px;
+        height: .6rem;
+    }
+
+    .number-hours span p {
+        font-size: 2rem;
+    }
+
+    .hands-box .hours {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .hands-box .hours i {
+        width: .4rem;
+        height: 5rem;
+    }
+
+    .hands-box .minutes {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .hands-box .minutes::before {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .hands-box .minutes i {
+        width: .35rem;
+        height: 7rem;
+    }
+
+    .hands-box .seconds {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .hands-box .seconds i {
+        width: .25rem;
+        height: calc(7.5rem + 2rem);
+    }
+
+    .hands-box .seconds::before {
+
+        width: 0.7rem;
+        height: 0.7rem;
+
+    }
+    
 }
