@@ -10,20 +10,19 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.87);
-    overflow: hidden;
 }
 
 .container {
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 380px;
+    height: 380px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 9px solid turquoise;
-    outline-offset: 1.6rem;
-    animation: colorful 30s linear infinite;
+    outline: 6px solid turquoise;
+    outline-offset: 1.5rem;
+    animation: colorful 60s linear infinite;
 }
 
 @keyframes colorful {
@@ -48,8 +47,8 @@ body {
 }
 
 .bar-seconds span:nth-child(5n) p {
-    width: 6px;
-    height: 18px;
+    width: 4px;
+    height: 15px;
     transform: translateY(1px);
 }
 
@@ -70,7 +69,7 @@ body {
 }
 
 .number-hours span p {
-    font-size: 3.25rem;
+    font-size: 2.6rem;
     color: turquoise;
     text-shadow: 0 0 10px turquoise;
     transform: rotate(calc(var(--index) * -30deg));
@@ -98,19 +97,19 @@ body {
 }
 
 .hands-box .hours {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
 }
 
 .hands-box .hours i {
-    width: .5rem;
-    height: 10rem;
+    width: .4rem;
+    height: 8rem;
     background-color: turquoise;
 }
 
 .hands-box .minutes {
-    width: 28rem;
-    height: 28rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 .hands-box .minutes::before {
@@ -118,22 +117,22 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.3rem;
+    height: 1.3rem;
     background-color: turquoise;
     border-radius: 50%;
     box-shadow: 0 0 5px turquoise;
 }
 
 .hands-box .minutes i {
-    width: .5rem;
-    height: 14rem;
+    width: .4rem;
+    height: 10rem;
     background-color: turquoise;
 }
 
 .hands-box .seconds {
-    width: 30rem;
-    height: 30rem;
+    width: 22rem;
+    height: 22rem;
 }
 
 .hands-box .seconds::before {
@@ -141,8 +140,8 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 1.25rem;
-    height: 1.25rem;
+    width: 1rem;
+    height: 1rem;
     background-color: whitesmoke;
     border-radius: 50%;
     box-shadow: 0 0 2px rgba(0, 0, 0, .5);
@@ -150,12 +149,12 @@ body {
 
 .hands-box .seconds i {
     width: .25rem;
-    height: calc(15rem + 4rem);
+    height: calc(11rem + 3rem);
     background-color: white;
     box-shadow: none;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     .container {
         width: 255px;
         height: 255px;
@@ -213,10 +212,7 @@ body {
     }
 
     .hands-box .seconds::before {
-
         width: 0.7rem;
         height: 0.7rem;
-
-    }
-    
+    }   
 }
