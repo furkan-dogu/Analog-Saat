@@ -35,7 +35,7 @@ To use the project, follow these steps:
 
 ## Compatibility
 
-The project is compatible with both wide-screen computers and mobile devices. It also includes custom style adjustments for small-screen devices.
+The project is compatible with both wide-screen computers and mobile devices.
 
 ## Development
 
