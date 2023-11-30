@@ -29,8 +29,8 @@ To use the project, follow these steps:
 ## Screenshots
 
 <div align="center">
-  <img src="https://github.com/furkan-dogu/Analog-Saat/blob/main/assets/Screenshot_1.jpg"  width="30%" height="350" />
-  <img src="https://github.com/furkan-dogu/Analog-Saat/blob/main/assets/Screenshot_2.jpg"  width="65%" height="350" />
+  <img src="https://github.com/furkan-dogu/Analog-Saat/blob/main/assets/Screenshot_1.jpg"  width="25%" height="350" />
+  <img src="https://github.com/furkan-dogu/Analog-Saat/blob/main/assets/Screenshot_2.jpg"  width="70%" height="350" />
 </div>
 
 ## Compatibility
